@@ -10,7 +10,7 @@ public class SieveOfEratosthenes {
             arr[i] = true;
         }
         for (int i = 2; i <= n; i++) {
-            if (arr[i] == true) {
+            if (arr[i]) {
                 int j = i * 2;
                 while (j <= n) {
                     arr[j] = false;
