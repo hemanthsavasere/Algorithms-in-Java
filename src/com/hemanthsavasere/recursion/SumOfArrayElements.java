@@ -1,6 +1,4 @@
-package recursion;
-
-import com.hemanthsavasere.string.BruteForcePatternMatching;
+package com.hemanthsavasere.recursion;
 
 import java.math.BigInteger;
 
